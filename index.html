@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOOTSTRAP CONNECTION -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- STYLE SHEET CONNECTION -->
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <!-- FONT AWSOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Made with Bootstrap</title>
+  </head>
+  <body>
+    <main>
+      <!-- hero section starts here -->
+      <section id="hero" class="position-relative">
+        <!-- navigation starts here -->
+        <nav class="navbar navbar-expand-lg border-bottom border-white"> 
+          <div class="container">
+            <a class="navbar-brand fs-3 text-dark fw-bold" href="index.html"></a>
+            <img src="logo.png" alt="" />
+            
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item p-2">
+                  <a
+                    class="nav-link active fs-5 text-dark fw-semibold"
+                    aria-current="page"
+                    href="#intro"
+                    >About Me</a
+                  >
+                </li>
+                <li class="nav-item p-2">
+                  <a
+                    class="nav-link fs-5 text-dark fw-semibold"
+                    href="#experience"
+                    >My Works</a
+                  >
+                </li>
+                <li class="nav-item p-2">
+                  <a class="nav-link fs-5 text-dark fw-semibold" href="#skills"
+                    >Skills</a
+                  >
+                </li>
+                <li class="nav-item p-2">
+                  <a class="nav-link fs-5 text-dark fw-semibold" href="#contact"
+                    >Contact Me</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div
+          class="showcase px-4 position-absolute top-50 translate-middle d-flex flex-column align-items-start border-start border-5 border-secondary"
+        >
+          <h1 class="main-title fs-1 text-dark text-capitalize fw-bolder">
+            Talk is Cheap, <span class="text-success">don't "REACT"</span>
+          </h1>
+          <p class="main-subtitle text-secondary fs-4 text-capitalize fw-bold">
+            !!Let's code!!
+          </p>
+          <button class="btn btn-success mt-4">
+            <a
+              href="#intro"
+              class="fs-4 text-capitalize text-decoration-none text-white"
+              >Find more</a
+            >
+          </button>
+        </div>
+      </section>
+
+      <!-- intro section starts here -->
+      <section
+        id="intro"
+        class="container-lg d-flex flex-column justify-content-center"
+        style="height: 100vh"
+      >
+        <h2 class="section-title text-capitalize text-center my-5">About CeeJay</h2>
+        <div class="row gap-5">
+          <div class="intro-container d-flex flex-column gap-3 col-8">
+            <p class="intro-text fs-5">
+                I am Jane Chidera Ohia, a software developer and a UX/UI Designer. 2
+          years of actively using HTML, CSS, Bootstrap, Tailwind CSS, Vanilla
+          JavaScript, React. JS, and C# to build responsive, robust, and
+          interactive websites. <br /><br />
+          Used problem-solving aptitude to enhance application performance.
+          Created data visualization tools and integrated designs. Increased
+          speed of product lifecycle and 100% of the time delivered projects
+          within deadline. 2 years of Research, sketching, wire-framing, and
+          prototyping, Conducting and managing customer research, usability
+          studies, Designing mockups and high-fidelity user interfaces, and
+          Improving the user experience, and overall functionality of new
+          existing features, have helped me set distinct standards for user
+          needs, interactions and requirements as a UX/UI Designer.
+            </p>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              style="width: max-content"
+              class="btn btn-success fs-5"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Education Journey
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      Education 
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body fs-5">
+                    &rarr; <i>Bachelor of Technology in Biology,</i> ALX Full-stack developer Training <br />
+                    &rarr; <i>Pricewater House coopers Full-stack developer,</i>
+                    Federal University of Technology Owerri Imo State Nigeria
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                    Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid col-3">
+        <img
+          src="images/photo.jpeg"
+          alt="my-photo"
+          class="img-fluid border"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- My work starts here-->
+  <section id="experience" class="container-lg">
+    <h2 class="section-title text-capitalize text-center my-5">
+      My Works
+    </h2>
+    <div
+      class="d-flex flex-column gap-2 justify-content-center mx-auto"
+      style="max-width: 1000px"
+    >
+      <div class="row gap-2">
+        <div class="card bg-success col">
+          <img
+            style="width: 300px" style="height: 300px"
+            src="images/trisum.PNG"
+            alt="scc"
+            class="card-img-top img-thumbnail mt-5 mx-auto"
+          />
+          <div class="card-body d-flex flex-column">
+            <h3 class="card-title text-capitalize text-white">
+              Frontend Developer
+            </h3>
+            <p class="card-text text-white">
+              &rarr; Developed and implementing highly responsive user interface components using React concepts. 
+
+              
+            <a
+              href="https://triisum.com/"
+              class="btn btn-primary fs-5 mt-auto"
+              role="button"
+              style="width: max-content"
+              >View</a
+            >
+          </div>
+        </div>
+        <div class="card bg-success col">
+          <img
+            style="width: 300px"
+            src="images/pwc.PNG"
+            alt="veo"
+            class="card-img-top img-thumbnail mt-5 mx-auto"
+          />
+          <div class="card-body d-flex flex-column">
+            <h3 class="card-title text-capitalize text-white">
+              Frontend Developer
+            </h3>
+            <p class="card-text text-white">
+                <br />
+              &rarr; Wrote clean, testable code using .NET programming languages (C#, MVC, Web API, .Net  React, JS,)
+              <br />
+              
+            </p>
+            <a
+              href="https://codehokage1.github.io/web1/index.html"
+              class="btn btn-primary fs-5 mt-auto"
+              role="button"
+              style="width: max-content"
+              >View</a
+            >
+          </div>
+        </div>
+        <div class="card bg-success col">
+          <img
+            style="max-width: 300px"
+            src="images/portfolio.PNG"
+            alt="arcelor"
+            class="card-img-top img-thumbnail mt-3 mx-auto"
+          />
+          <div class="card-body d-flex flex-column">
+            <h3 class="card-title text-capitalize text-white">
+              Frontend Developer, UX/UI Designer
+            </h3>
+            <p class="card-text text-white">
+              &rarr; Designed and developed my portfolio
+             
+            </p>
+            <a
+              href="https://ohiajanny.github.io/"
+              class="btn btn-primary fs-5 mt-auto"
+              role="button"
+              style="width: max-content"
+              >View</a
+            >
+
+     
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+          <!-- My Skills starts here-->
+
+          <section id="skills" class="container-lg">
+            <h2 class="section-title text-capitalize text-center my-5">
+              My Skills
+            </h2>
+            <div
+              class="d-flex flex-column gap-2 justify-content-center mx-auto"
+              style="max-width: 1000px"
+            >
+<div class="progress">
+    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <H4>CSS</H4>
+
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+  <h4>HTML</h4>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  
+  <h4>JavaScript</h4>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  
+  <h4>React</h4>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+
+  <h4>Bootstrap CSS</h4>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+  <h4>UX/UI Design</h4>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+
+  <h4>Wireframe</h4>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+
+  <h4>Prototyping</h4>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+  <h4>Figma</h4>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+  <h4>Adobe XD</h4>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+  <h4>Photoshop</h4>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+  <h4>Scrum</h4>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+  <h4>Devops</h4>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+</section>
+
+ <!-- Contack Me-->
+
+<section id="contact" class="container-lg my-5">
+    <h2 class="section-title text-capitalize text-center my-5">
+      Contact Me
+    </h2>
+    <form class="mx-auto" style="max-width: 500px">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+        <div id="emailHelp" class="form-text">
+          type your mail.
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label"
+          >Got questions? ask</label
+        >
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+        />
+      </div>
+      
+      <div class="mb-3 form-check">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="exampleCheck1"
+        />
+        <label class="form-check-label" for="exampleCheck1"
+          >click on to accept conditions</label
+        >
+      </div>
+      <button class="btn btn-success">Submit</button>
+    </form>
+  </section>
+
+
+   <!-- Footer-->
+  
+  <footer class="bg-dark footer py-4 text-white">
+    <div
+      class="d-flex justify-content-evenly fs-4 social-container"
+      style="border-bottom: 1px solid white; padding-bottom: 20px"
+    >
+      <div class="d-flex gap-2 flex-column align-items-center social-group">
+        <a href="tel:09055016590" class="contact-me__connect"
+            ><span>09055016590</span></a
+          >
+        <i class="fa-solid fa-mobile-screen"></i>
+      </div>
+      <div class="d-flex gap-2 flex-column align-items-center social-group">
+        <a class="contact-me__connect" href="mailto:janechidera12@gmail.com"
+        ><span>janechidera12@gmail.com</span></a
+      >
+        <i class="fa-solid fa-envelope-open-text"></i>
+      </div>
+      <div class="d-flex gap-2 flex-column align-items-center social-group">
+        <a class="contact-me__connect" href="https://github.com/OhiaJanny"
+            ><span>Github</span></a
+          >
+        <i class="fa-brands fa-github"></i>
+      </div>
+      <div class="d-flex gap-2 flex-column align-items-center social-group">
+        <a class="contact-me__connect" href="https://www.linkedin.com/in/ohia-jane-chidera-458b39213"
+        ><span>Linkedin</span></a
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    <div class="copyright text-center" style="padding-top: 20px">
+      <span class="text-white fs-5"
+        >© CeeJay 2023</span
+      >
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* PRESETS */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.border {
+  border-radius: 20px 0 20px 0;
+}
+
+
+.section-title::first-line{
+  font-size: 40px;
+  color: #82CC29;
+}
+
+/* HERO BACKGROUND */
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/hero.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.showcase {
+  left: 20%;
+}
+
+.nav-link:hover {
+  color: #82CC29 !important;
+}
+
+
+
+
+
+:root {
+  --x-bg-blue-900: #080c48;
+}
+
+.container-contact {
+  display: flex;
+  background-color: var(--x-bg-blue-900);
+}
+
+.page_header {
+  background-color: var(--x-bg-blue-900);
+}
+
+
